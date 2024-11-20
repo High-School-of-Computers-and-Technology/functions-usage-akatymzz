@@ -21,5 +21,26 @@ moneyMade(sell(10))
 do something like this.
 
 */
+console.log(f.add(3,87))
+
+console.log(f.subtract(123,44))
+
+console.log(f.multiply(45,32,0,89,100))
+
+console.log(f.divide(99,8))
+
+let king = [30,555,2,99,68,72,4,10,72,67,8]
+console.log(f.sort(king))
+
+let million = ["Tamesha","Sanita","Safena","Prya","Ashley","Shakeel","Adriel","Alexis","Najma,"]
+console.log(f.sortAlphabetically(million))
+
+let mice = ["FISH","PIG","QUEEN","SANKE"]
+console.log(f.toLowerCaseList(mice))
+console.log(f.sortByLength(mice))
+console.log(f.convertNamesToLengths(mice))
+console.log(f.processStudentNames(mice))
+console.log(f.sortAlphabetically(mice))
+
 
 

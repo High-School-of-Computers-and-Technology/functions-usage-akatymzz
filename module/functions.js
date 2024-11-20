@@ -91,6 +91,17 @@ function processStudentNames(names) {
     };
 }
 
+function addPoints(userPoints, pointsToBeAdded){
+    return userPoints + pointsToBeAdded
+}
+function removePoints(userPoints, pointsTobeDeducted){
+    return userPoints - pointsTobeDeducted
+}
+function donatePoints(donatingUser, recivingUser, amountOfPoints){
+    return [donatingUser - amountOfPoints, recivingUser + amountOfPoints]
+}
+
+
 
 
 module.exports = {
